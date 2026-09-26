@@ -1,0 +1,6 @@
+# DeKodX runtime dependencies
+# GUI only - the core engine and CLI are pure standard library.
+PyQt6>=6.5
+
+# TOML parsing fallback for Python < 3.11 (3.11+ ships tomllib)
+tomli>=2.0; python_version < "3.11"
